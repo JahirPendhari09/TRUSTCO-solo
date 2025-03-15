@@ -343,24 +343,18 @@ body {
     border-bottom: 16px solid transparent;
 }
 
-
-
-/* benefits section css */ 
-
+/* benefits section css */
 
 .benefits-section {
     width: 1440px;
     height: 670px;
     background-color: #FFF;
     gap: 64px;
-    padding-top: 100px;
-    padding-right: 150px;
-    padding-bottom: 100px;
-    padding-left: 150px;
+    padding: 100px 150px;
 }
 
 
-.benefits-section > div{
+.benefits-section>div {
     width: 1140px;
     height: 470px;
     background-color: #FFF;
@@ -377,14 +371,11 @@ body {
     gap: 32px;
 }
 
-.benefits-container-1 > button {
+.benefits-container-1>button {
     width: 125px;
     height: 43px;
     gap: 10px;
-    padding-top: 4px;
-    padding-right: 24px;
-    padding-bottom: 4px;
-    padding-left: 24px;
+    padding: 4px 24px;
     border-radius: 100px;
     background-color: #043A53;
     font-family: Lato;
@@ -398,7 +389,7 @@ body {
 
 }
 
-.benefits-container-1 > h1 {
+.benefits-container-1>h1 {
     width: 100%;
     height: 144px;
     font-weight: 700;
@@ -408,7 +399,7 @@ body {
     color: #12141D;
 }
 
-.benefits-container-1 > p {
+.benefits-container-1>p {
     width: 100%;
     height: 90px;
     font-weight: 400;
@@ -431,36 +422,35 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding-top: 32px;
-    padding-right: 24px;
-    padding-bottom: 32px;
-    padding-left: 24px;
+    padding: 32px 24px;
     border-radius: 16px;
     background-color: #F2F5F6;
 }
-.benefits-container-2 > div:last-child {
+
+.benefits-container-2>div:last-child {
     height: 470px;
 }
 
 
-.benefit-card > svg {
+.benefit-card>svg {
     width: 93px;
     height: 84px;
 }
 
-.benefits-container-2 > div:last-child > svg {
+.benefits-container-2>div:last-child>svg {
     width: 104px;
     height: 104px;
 }
 
-.benefit-card > h3 {
+.benefit-card>h3 {
     font-family: Lato;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0%;
 }
-.benefit-card > p {
+
+.benefit-card>p {
     font-family: Lato;
     font-weight: 400;
     font-size: 18px;
@@ -656,6 +646,100 @@ body {
         border-bottom: 8px solid transparent;
     }
 
+    /* benefits section css */
+    .benefits-section {
+        width: 100%;
+        height: 1160px;
+        gap: 32px;
+        padding: 50px 20px;
+    }
+
+    .benefits-section > div {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .benefits-container-1 {
+        width: 100%;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .benefits-container-1>button {
+        width: 93px;
+        height: 26px;
+        gap: 10px;
+        padding: 4px 16px;
+        border-radius: 100px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+    }
+
+    .benefits-container-1>h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+
+    }
+
+    .benefits-container-1>p {
+        width: 100%;
+        height: 90px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .benefits-container-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .benefit-card {
+        width: 100%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .benefits-container-2>div:last-child {
+        height: 300px;
+    }
+
+
+    .benefit-card>svg {
+        width: 93px;
+        height: 84px;
+    }
+
+    .benefits-container-2>div:last-child>svg {
+        width: 80px;
+        height: 76px;
+    }
+
+    .benefit-card>h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .benefit-card>p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
 
 

@@ -506,6 +506,86 @@ body {
     color: #1E1E1E;
 }
 
+/* building bridges section css */
+
+.bridges-section {
+    width: 1440px;
+    height: 700;
+    background-color: #FFF;
+    gap: 77px;
+    display: flex;
+}
+
+.bridges-container-1 {
+    width: 700px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bridges-container-1 > img {
+    width: 629px;
+    height: 100%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.bridges-container-1 > svg {
+    position: absolute;
+    bottom: 0px;
+}
+
+.bridges-container-2 {
+    width: 511px;
+    height: 700px;
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bridges-container-2 > h1 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2%;
+    color: #12141D;
+
+}
+.bridges-container-2 > h1 > span {
+    color: #92A7B0;
+}
+.bridges-container-2 > p {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.bridges-view-btn {
+    width: 205px;
+    height: 64px;
+    gap: 25px;
+    padding: 16px 16px 16px 24px;
+    border-radius: 55px;
+    background-color: #043A53;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+}
+.bridges-view-btn > p:last-child {
+    width: 24px;
+    height: 24px;
+    background-color: #F2F5F629;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
+
 /* Mobile Styles */
 @media (max-width: 468px) {
     .container {

@@ -975,6 +975,81 @@ body {
     line-height: 28px;
 }
 
+/* cta banner css */
+
+.cta-banner-section {
+    width: 1440px;
+    height: 520px;
+    background-color: #12141D;
+    display: flex;
+    align-items: center;
+    position: relative; 
+    overflow: hidden;
+}
+
+.cta-banner-section > div {
+    margin-left: 150px;
+    width: 673px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cta-banner-section > div > h1 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.cta-banner-section img {
+    position: absolute;
+    top: 0;
+    right: 0px; 
+    width: 773px;
+    height: 700px;
+    object-fit: cover;
+}
+.cta-banner-section > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #FFF;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.trial-btn {
+    width: 273px;
+    height: 64px;
+    gap: 25px;
+    padding: 16px 16px 16px 24px;
+    border-radius: 55px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background-color: #F0B73F;
+}
+
+.trial-btn>p:last-child {
+    width: 24px;
+    height: 24px;
+    background-color: #F2F5F629;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
 /* Mobile Styles */
 @media (max-width: 468px) {
     .container {

@@ -840,6 +840,127 @@ body {
 }
 
 
+/* blogs section css */
+
+.blogs-section {
+    width: 1440px;
+    height: 923;
+    padding: 100px 150px 150px 150px;
+    background-color: #F2F5F6;
+}
+
+.blogs-section>div {
+    display: flex;
+    width: 1140px;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.blogs-container-1 {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogs-container-1>h1 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2%;
+}
+
+.blogs-container-1>div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.blogs-container-1>div>p {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.blogs-container-2 {
+    display: flex;
+    width: 100%;
+    height: 537px;
+    gap: 32px;
+}
+
+.blogs-container-2>div {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    border: 1px solid #F2F5F6
+}
+
+.blogs-container-2>div>img {
+    width:100%;
+    height: 257px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.blogs-inner-card{
+    width: 100%;
+    height: 264px;
+    padding-right: 25px;
+    padding-bottom: 24px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.blogs-inner-card > h6 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+.blogs-inner-card > p:nth-child(1) {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.blogs-inner-card > p:nth-child(1)  span {
+    color: #404040;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.blogs-inner-card > p:nth-child(3) {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #404040;
+}
+.blogs-inner-card > div {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
 /* Mobile Styles */
 @media (max-width: 468px) {
     .container {

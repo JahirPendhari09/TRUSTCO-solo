@@ -1153,7 +1153,8 @@ body {
     background-color: #F2F5F6;
 
 }
-.site-credit-section > div {
+
+.site-credit-section>div {
     width: 676px;
     height: 278px;
     border-radius: 20px;
@@ -1163,7 +1164,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.site-credit-section > div > p {
+
+.site-credit-section>div>p {
     width: 100%;
     height: 84px;
     gap: 10px;
@@ -1176,6 +1178,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.2px;
 }
+
 .site-credit-section span {
     color: #6439FF;
 }
@@ -1190,29 +1193,34 @@ body {
     gap: 30px;
     padding: 30px 100px;
 }
-.collaboarators > p {
+
+.collaboarators>p {
     font-family: Poppins;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.2px;
 }
-.collaboarators > div {
+
+.collaboarators>div {
     display: flex;
     gap: 19px;
 }
+
 .collaboarators img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
+
 .terms-section {
     width: 1440px;
     height: 72px;
-    
+
     border-top: 1px solid #000000;
 }
-.terms-section > div {
+
+.terms-section>div {
     width: 1140px;
     height: 100%;
     margin: auto;
@@ -1221,16 +1229,19 @@ body {
     align-items: center;
     color: #92A7B0;
 }
+
 .term-policy {
     display: flex;
     gap: 16px;
 }
+
 .term-setting {
     display: flex;
     gap: 5px;
     align-items: center;
     justify-content: center;
 }
+
 .term-policy img {
     width: 24px;
     height: 24px;
@@ -2021,7 +2032,70 @@ body {
     .footer-card-3>div {
         width: 100%;
     }
-  
+
+    /* Site credit section css for mobile screen */
+
+    .site-credit-section {
+        width: 100%;
+        height: 450px;
+        padding-top: 10px 20px;
+    }
+
+    .site-credit-section>div {
+        width: 90%;
+        height: 361px;
+        border-radius: 20px;
+        border: 1px solid red;
+    }
+
+    .site-credit-section>div>p {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 108px;
+    }
+
+    .site-credit-section span {
+        color: #6439FF;
+    }
+
+    .collaboarators {
+        width: 90%;
+        height: 253px;
+        padding: 20px 20px;
+    }
+
+    .collaboarators>div {
+        display: flex;
+        width: 90%;
+        gap: 19px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .collaboarators img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .terms-section {
+        width: 90%;
+        height: 184px;
+        margin: auto;
+    }
+
+    .terms-section>div {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .term-policy {
+        gap: 100px;
+    }
+
 }
 
 

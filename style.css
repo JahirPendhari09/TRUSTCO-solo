@@ -207,13 +207,16 @@ body {
     margin: 0; 
 }
 
-.partners-container {
+/* trusted brands section css */
+
+.brands-container {
     background-color: #FFF;
     height: 100px;
+    width: 1440px;
+    margin: auto;
 }
-
-.partners {
-    width: 1200px;
+.brands {
+    width: 1140px;
     height: 100%;
     margin: auto;
     display: flex;
@@ -221,29 +224,123 @@ body {
     align-items: center;
     background-color: #FFF;    
 }
-.partners > p {
+.brands > p {
     width: 260px;
     text-align: left;
     font-size: 16px;
 }
 
-.partners-list {
+.brands-list {
     display: flex;
     gap: 64px;
     align-items: center;
     justify-content: space-between;
 }
 
+/* video section css */
+
 .video-section {
     width: 1440px;
-    height: 944px;
+    height: 940px;
     gap: 64px;
     padding-top: 100px;
     padding-right: 150px;
     padding-left: 150px;
+    padding-bottom: 0px;
     background-color: #043A53;
-
 }
+
+.video-section > div {
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.video-description {
+    width: 100%;
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-description > h1 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: -2%;
+    color: #FFF;
+}
+.video-description > h1 > span {
+    color: #F0B73F;
+}
+
+.video-description > div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.video-description > div > p{
+    width: 432px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #FFF;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: 640px; 
+    position: relative;
+    overflow: hidden; 
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.video-thumbnail > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.video-thumbnail > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.video-thumbnail-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-thumbnail-play .play-icon {
+    width: 0;
+    height: 0;
+    border-left: 24px solid #043A53;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+}
+
+
 
 /* Mobile Styles */
 @media (max-width: 468px) {
@@ -327,12 +424,13 @@ body {
         align-items: center;
         gap: 20px;
     }
-    .partners-container {
+    .brands-container {
+        width: 100%;
         height: 250px;
         padding: 10px;
     }
 
-    .partners {
+    .brands {
         width: 90%;
         align-items: center;
         gap: 30px;
@@ -340,13 +438,13 @@ body {
         flex-direction: column;
     }
 
-    .partners > p {
+    .brands > p {
         width: 90%;
         text-align: center;
         font-size: 16px;
     }
     
-    .partners-list {
+    .brands-list {
         flex-wrap: wrap;
         gap:24px;
         justify-content: center;

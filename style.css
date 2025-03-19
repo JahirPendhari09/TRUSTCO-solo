@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 /* Color Palette (CSS Variables) */
 :root {
     --primary-color: #007bff;
@@ -1242,7 +1240,6 @@ body {
 .terms-section {
     width: 1440px;
     height: 72px;
-
     border-top: 1px solid #000000;
 }
 
@@ -1573,10 +1570,9 @@ body {
 
     .first-hero,
     .third-hero {
-        width: 100%;
+        width: 50%;
         height: 120px;
         text-align: center;
-        border: 1px solid blue;
     }
 
     .second-hero {

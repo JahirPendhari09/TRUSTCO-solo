@@ -1247,6 +1247,8 @@ body {
     height: 24px;
 }
 
+/* contact page css */
+
 .contact-section {
     width: 1400px;
     height: 700px;
@@ -1258,7 +1260,8 @@ body {
     background-color: #F2F5F6;
 
 }
-.contact-section > div {
+
+.contact-section>div {
     width: 1140px;
     display: flex;
     justify-content: center;
@@ -1266,6 +1269,7 @@ body {
     flex-direction: column;
     gap: 32px;
 }
+
 .contact-container-1 {
     width: 709px;
     height: 166px;
@@ -1273,6 +1277,7 @@ body {
     flex-direction: column;
     gap: 16px;
 }
+
 .contact-container-1 h1 {
     font-family: Lato;
     font-weight: 800;
@@ -1283,6 +1288,7 @@ body {
     color: #12141D;
 
 }
+
 .contact-container-1 p {
     font-family: Lato;
     font-weight: 500;
@@ -1299,7 +1305,8 @@ body {
     gap: 32px;
     justify-content: space-between;
 }
-.contact-container-2 > div {
+
+.contact-container-2>div {
     width: 100%;
     height: 100%;
     display: flex;
@@ -1309,7 +1316,8 @@ body {
     padding: 24px;
     background-color: #FFFFFF;
 }
-.container-2-card > div:nth-child(1) {
+
+.container-2-card>div:nth-child(1) {
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -1318,12 +1326,13 @@ body {
     justify-content: center;
     align-items: center;
 }
-.container-2-card > div > img {
+
+.container-2-card>div>img {
     width: 30px;
     height: 30px;
 }
 
-.container-2-card > div:nth-child(2) {
+.container-2-card>div:nth-child(2) {
     width: 100%;
     height: 172px;
     display: flex;
@@ -1331,7 +1340,7 @@ body {
     justify-content: space-between;
 }
 
-.container-2-card > div:nth-child(2) > div:nth-child(2) {
+.container-2-card>div:nth-child(2)>div:nth-child(2) {
     width: 100%;
     display: flex;
     align-items: center;
@@ -1352,7 +1361,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.leave-message > div {
+.leave-message>div {
     width: 1200px;
     height: 595px;
     display: flex;
@@ -1360,6 +1369,7 @@ body {
     align-items: center;
     gap: 32px;
 }
+
 .message-container-1 {
     width: 709px;
     height: 147px;
@@ -1368,7 +1378,8 @@ body {
     align-items: center;
     gap: 16px;
 }
-.message-container-1 > h2 {
+
+.message-container-1>h2 {
     font-family: Lato;
     font-weight: 800;
     font-size: 64px;
@@ -1376,6 +1387,7 @@ body {
     letter-spacing: -2%;
     text-align: center;
 }
+
 .message-container-1 p {
     font-family: Lato;
     font-weight: 500;
@@ -1384,6 +1396,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
 }
+
 .message-container-2 {
     width: 100%;
     display: flex;
@@ -1394,7 +1407,8 @@ body {
     padding-left: 84px;
 
 }
-.message-container-2 > div {
+
+.message-container-2>div {
     display: flex;
     gap: 32px;
 }
@@ -1409,6 +1423,7 @@ body {
     align-items: center;
     border: 1px solid #91A7B0
 }
+
 .message-input-container input {
     outline: none;
     border: none;
@@ -1425,7 +1440,7 @@ body {
     height: 36px;
 }
 
-.message-container-2  textarea {
+.message-container-2 textarea {
     width: 100%;
     height: 150px;
     gap: 15px;
@@ -1450,13 +1465,15 @@ body {
     padding-right: 84px;
     padding-left: 84px;
 }
-.message-container-3 > div {
+
+.message-container-3>div {
     width: 1140px;
     height: 100%;
     display: flex;
     justify-content: space-between;
 }
-.message-container-3 > div > div {
+
+.message-container-3>div>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1475,6 +1492,7 @@ body {
     width: 24px;
     height: 24px;
 }
+
 .message-container-3 span {
     color: #043A53;
 }
@@ -2338,6 +2356,114 @@ body {
 
     .term-policy {
         gap: 100px;
+    }
+
+    /* contact page css for mobile screen */
+
+    .contact-section {
+        width: 100%;
+        height: 1211px;
+        gap: 10px;
+        padding: 40px 20px;
+    }
+
+    .contact-section>div {
+        width: 100%;
+        gap: 32px;
+    }
+
+    .contact-container-1 {
+        width: 100%;
+        height: 111px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .contact-container-1 h1 {
+        font-size: 38px;
+    }
+
+    .contact-container-1 p {
+        font-size: 16px;
+    }
+
+    .contact-container-2 {
+        width: 100%;
+        height: 988px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .right-arrow {
+        width: 18px;
+        height: 18px;
+    }
+
+    .leave-message {
+        width: 100%;
+        height: 805px;
+        padding: 40px 20px;
+    }
+
+    .leave-message>div {
+        width: 100%;
+        height: 725px;
+        gap: 20px;
+    }
+
+    .message-container-1 {
+        width: 100%;
+        height: 111px;
+    }
+
+    .message-container-1>h2 {
+        font-size: 32px;
+    }
+
+    .message-container-1 p {
+        font-size: 16px;
+    }
+
+    .message-container-2 {
+        height: 454px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .message-container-2>div {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .message-input-container {
+        height: 44px;
+    }
+
+    .message-container-3 {
+        height: 120px;
+        justify-content: space-between;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .message-container-3>div {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .message-container-3>div>div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 0px 0px;
+    }
+
+    .message-container-3 button {
+        width: 100%;
     }
 
 }
